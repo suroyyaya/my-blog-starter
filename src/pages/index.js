@@ -25,6 +25,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      <p>Hello Yaya</p>
       <Seo title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
